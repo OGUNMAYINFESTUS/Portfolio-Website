@@ -1,0 +1,1360 @@
+<!--
+
+
+Hit RUN to see this project in action!
+
+Feel free to edit the HTML and CSS to make it your own. You can also check the README.md file to know more.
+
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Festus Ogunmayin- Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="/CSS FILE/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="/IMAGE FILE/FESTUS PICS.jpg" alt="Festus Ogunmayin" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Festus Ogunmayin">Festus Ogunmayin</h1>
+
+          <p class="title">Web Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:ogunmayinfestus@yahoo.com" class="contact-link">ogunmayinfestus@yahoo.com</a>
+              <a href="mailto:ogunmayinfestus@yahoo.com" class="contact-link">ogunmayinfestus@homail.com</a><a href="mailto:ogunmayinfestus@yahoo.com" class="contact-link">ogunmayinfestus4@gmail.com.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+2348057910429" class="contact-link">+234 8057910429</a>
+              <a href="tel:+2348143815947" class="contact-link">+234 8143815947</a>
+            </div>
+
+          </li>
+
+          <!-- <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 06</time>
+            </div>
+
+          </li> -->
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>20, Ogunmayin Street, Off Eromosele Avenue, New Osho Layout, Langbasa, Ajah, Lekki, Lagos, Nigeria</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://web.facebook.com/ogunmayin.festus" target="_blank" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://x.com/festus9848" target="_blank" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/festus-ogunmayin-550425194/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/ogunmayinfestus/" target="_blank" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Festus0013/" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/OGUNMAYINFESTUS/" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a Web Developer and a Tech Enthusiast from Lagos, Nigeria, 
+            working at Learning Ladder Montessori School and Defest Computer Institute. I enjoy turning complex problems into simple, beautiful and intuitive designs. I also enjoy teaching people programming. 
+          </p>
+
+          <p>
+            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
+            Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
+            across your message and identity in the most creative way. 
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="/IMAGE FILE/web design.jpg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  I am a talented and creative web designer. 
+                  I combine creativity with functionality. 
+                  I create user-friendly website
+
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="/IMAGE FILE/web dev.jpg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  I am a creative and talented web developer. 
+                  I create responsive websites and applications 
+                  that offer seamless user experiences.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="/IMAGE FILE/graphic design.webp" alt="graphic design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Graphic design</h4>
+
+                <p class="service-item-text">
+                  I am a telented and creative graphic designer.
+                  I create visually compelling designs across various media.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="/IMAGE FILE/desktop publishing.jpeg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Desktop publishing</h4>
+
+                <p class="service-item-text">
+                  I am a proficient desktop publisher. I Create high-quality
+                  print and digital document. 
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="/IMAGE FILE/Python.svg.png" alt="camera icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Python Programming</h4>
+                <p class="service-item-text">
+                  I am a junior python programmer. I have built five portfolios such as quiz, hangman game, capital city finder, etc using python. I'm proficient in using Python's built-in libraries and have begun exploring third-party packages to extend my programming capabilities.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="/IMAGE FILE/javascript.png" alt="camera icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">JavaScript Programming</h4>
+                <p class="service-item-text">
+                  I am a junior JavaScript programmer. I have completed several projects or assignments that demonstrate my ability to apply JavaScript to solve real-world problems. This include simple web applications, interactive elements on websites, or small games such as, Hangman game and finding the buried treasures.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="/IMAGE FILE/Ms. Tolu.jpg" alt="Tolulope Awosadere" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Tolulope Awosadere</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Festus was hired to create a personal portfolio website. 
+                    He did a very good job. I was very pleased with the work done. Though he is a junior developer, he is very concerned about the needs of his client.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="/IMAGE FILE/Bolanle.jpg" alt="Bolanle Alemonu" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Bolanle Alemonu</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Festus is a skilled developer known for creating innovative quiz applications. His work focuses on designing engaging and educational software that enhances learning and assessment experiences. Festus's quiz applications 
+                    are characterized by their user-friendly interfaces, interactive features, and robust functionality.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="/IMAGE FILE/Mr. Robert.jpg" alt="Lewa glam" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Robert Obey</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Festus is an accomplished graphic designer known for his creative flair 
+                    and attention to detail. His work spans a diverse range of projects, 
+                    including branding, digital media, print design, and user interface design. 
+                    Festus combines artistic talent with technical proficiency, 
+                    resulting in visually compelling and effective designs.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2024</time>
+
+              <div data-modal-text>
+                <p>
+                  festus was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. 
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="/IMAGE FILE/Lewa Glam.jpg" alt="client logo">
+              </a>
+            </li>
+
+             <li class="clients-item">
+              <a href="#">
+                <img src="/IMAGE FILE/SAMBLESS.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="/IMAGE FILE/DEFEST.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="/IMAGE FILE/MY JOY.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="/IMAGE FILE/DEFEST BANNER.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="/IMAGE FILE/DEFEST-BANNER.jpg" alt="client logo">
+              </a>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">New Horizons Systems Solutions</h4>
+
+              <span>2023 — 2024</span>
+
+              <p class="timeline-text">
+               <span>Full stack web development</span>
+               I learned the basics and dynamic of client-side and server-side web development, how to build web pages with HTML, Cascading Style Sheets, JavaScript, WordPress, Bootstrap, React JS and (PHP/MySQL/PHP Frameworks)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Power learn project academy</h4>
+
+              <span>2023 — 2024</span>
+
+              <p class="timeline-text">
+              <span>Software Development - February 2024 Cohort</span>
+              This program is meant to train young people from Africa, starting at a point of little experience to fairly skilled software developers. i have leared the basic of Python, Dart with Flutter, Web Technology, Database, Software Engineering and Entrepreneuship.
+              </p>
+
+            </li>
+
+            <li class="timeline-item"> 
+
+              <h4 class="h4 timeline-item-title">Power Learn Project Academy</h4>
+
+              <span>2023 — 2024</span>
+
+              <p class="timeline-text">
+              <span>Software Development - May 2024 Cohort </span>
+              This program is meant to train young people from Africa, starting at a point of little experience to fairly skilled software developers. i have leared the basic of Python, Dart with Flutter, Web Technology, Database, Software Engineering and Entrepreneuship. 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">EntryLevel</h4>
+
+              <span>June 2024</span>
+
+              <p class="timeline-text">
+                <span>Python Programming</span>
+                This course has equiped me with various skills, such as data handling, data structures, error handling, working with libraries, reading RSS web data and APIs.
+              </p>
+            </li>
+
+            
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Udemy</h4>
+
+              <span>2002 — 2004</span>
+
+              <p class="timeline-text">
+                <span>The Complete Python Programming Course</span>
+                I have learned the basics of programming, advanced Python concepts, coding a calculator, essential modules, creating a "Final Fantasy-esque" RPG battle script, web scraping, PyMongo, WebPy development, Django web framework, GUI programming, data visualization, and basics of machine learning.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Udemy</h4>
+
+              <span>2002 — 2004</span>
+
+              <p class="timeline-text">
+                <span>JavaScript Masterclass Course</span>
+                I have learned the basics of programming, JavaScript advance concepts, coding a calculator, essential modules, creating a "Quiz Application, Todo List Manager, Budget Tracker, Kanban Application, News Portal, GUI programming and Bookmark Manager."
+              </p>
+
+            </li>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Programming Hub</h4>
+
+              <span>May, 2024</span>
+
+              <p class="timeline-text">
+                <span>JavaScript  Course</span>
+                I have learned the basics of JavaScript programming  and advance concepts such as JavaScript objects, dates, object model, event handling, browser objects model and classes.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Programming Hub</h4>
+
+              <span>March, 2024</span>
+
+              <p class="timeline-text">
+                <span>Python  Course</span>
+                I have learned the basics of python programming  and advance concepts such as exception in python, regular expression, database connection, GUI, Object-oriented programming and multithreading in Python.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Olabisi Onobanjo University, Ago Iwoye, Ogun State</h4>
+
+              <span>September, 2012</span>
+
+              <p class="timeline-text">
+                <span>Economics</span>
+                I possess a deep understanding of economic principles, theories, and methodologies. My expertise lies in analyzing how individuals, businesses, governments, and societies allocate resources and respond to incentives. 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">National Teachers' Institute, Kaduna</h4>
+
+              <span>September, 2010</span>
+
+              <p class="timeline-text">
+                <span>Mathematics/Primary Education Studies</span>
+                I'm dedicated to the study and practice of education, focusing on improving teaching methods, learning outcomes, and educational systems. I'm skilled in designing curricula that meet diverse learners' needs, incorporating innovative teaching techniques and technology to enhance learning.
+              </p>
+
+            </li>
+            
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">PCB Computer Institute, Ikota Shopping Complex, Ajah, Lekki, Lagos</h4>
+
+              <span>September, 2006</span>
+
+              <p class="timeline-text">
+                <span>Graphic Design & Desktop Publishing</span>
+                I specialize in creating visually appealing and professional printed and digital documents. 
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Web Design & Developer @Defest Computer Institute</h4>
+              <span>2023 — Present</span>
+              <p class="timeline-text">
+                Build beautiful funtional and user-friendly websites and educational applications such as guessing games, quizes and todo list using JavaScript and Python.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Teaching Staff @Learning Ladder Montessori School</h4>
+              <span>2016 — Present</span>
+              <p class="timeline-text">
+                Work as a teaching staff at Learning Ladder Montessori School. 
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Graphic Design and Desktop Publisher @Defest Computer Institute</h4>
+              <span>2010 — Present</span>
+              <p class="timeline-text">
+                Design flayers, certificates, banners, calenders and visually communicate ideas and messages in a way that is both effective and aesthetically pleasing.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Administrative/Head Teacher @Biajmic Nursery & Primary School</h4>
+              <span>2010 — 2016</span>
+              <p class="timeline-text">
+                Responsible for providing efficient and professional administrative service to educators to facilitate the efficient operation of the organization.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Administrative/Head Teacher @Frimab School</h4>
+              <span>2007 — 2010</span>
+              <p class="timeline-text">
+                Responsible for providing efficient and professional administrative service to educators to facilitate the efficient operation of the organization.
+              </p>
+            </li>
+
+            
+
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="40">40%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 40%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Desktop publishing</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Computer Engineering</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript Programming</h5>
+                <data value="50">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python Programming</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="/IMAGE FILE/TOLU PORT.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Ms. Tolu Portfolio Website</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="/IMAGE FILE/FESTUS WEB.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Defest Computer Institute </h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="/IMAGE FILE/FESTUS PORT.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Festus Portfolio Website</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="/IMAGE FILE/SCIENCE QUIZ.jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Learning Ladder Science Quiz</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="/IMAGE FILE/STUDENT FORM.jpg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Student Registration Form</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="/IMAGE FILE/FESTUS DESIGN.jpg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Festus Website Banner</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="/IMAGE FILE/FESTUS PORT.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Festus Portfolio Website</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="/IMAGE FILE/MATH QUIZ.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Learning Ladder Math Quiz</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="/IMAGE FILE/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      <!-- -->
+
+      <!-- <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="/IMAGE FILE/blog 1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <!-- <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p> -->
+
+                <!-- </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="/IMAGE FILE/blog 2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure> -->
+
+                <!-- <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">March 24, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3> -->
+<!-- 
+                  <!-- <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p> 
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="/IMAGE FILE/blog 3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">May 25, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="/IMAGE FILE/blog 4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">June 30, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="/IMAGE FILE/blog 5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Jan 23, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="/IMAGE FILE/blog 6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article> -->
+ -->
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.0964919330363!2d3.582670774132103!3d6.509469323328016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bfa76d9f8cfcd%3A0x99116c2379d1f336!2sEromosele%20Ave%2C%20Lambasa%2C%20Lekki%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1715633069068!5m2!1sen!2sng"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="/JS FILE/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
